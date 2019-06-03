@@ -25,5 +25,4 @@ object PreparseETL {
 
     spark.stop()
   }
-
 }
