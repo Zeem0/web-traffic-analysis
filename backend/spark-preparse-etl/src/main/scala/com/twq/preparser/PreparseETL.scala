@@ -23,6 +23,7 @@ object PreparseETL {
       .partitionBy("year", "month", "day")
       .saveAsTable("rawdata.web")
 
+
     spark.stop()
   }
 }
